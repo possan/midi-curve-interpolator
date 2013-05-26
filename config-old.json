@@ -1,0 +1,30 @@
+{
+	"curves": [
+
+		{
+			"channel": 0,
+			"control": 0,
+			"inputrange": [-10, 10],
+			"outputrange": [0, 127],
+			"dataset": "samplecurve1.json",
+			"key": "dummy",
+			"from": "2012-05-25 00:00:00",
+			"to": "2012-05-26 00:00:00",
+			"speed": "10000.0"
+		},
+
+		{
+			"channel": 0,
+			"control": 1,
+			"inputrange": [0, 99],
+			"outputrange": [0, 127],
+			"dataset": "curve1.json",
+			"key": "random",
+			"from": "2012-05-25 00:00:00",
+			"to": "2012-05-26 00:00:00",
+			"speed": "10000.0"
+		}
+
+	]
+
+}
